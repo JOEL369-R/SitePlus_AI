@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07080b">
+<title>SitePulse AI — See What's Being Built</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<div class="grain"></div><div class="cursor-glow" id="cursorGlow"></div>
+<div class="loader" id="loader"><div class="loader-mark">S<span>•</span></div><div class="loader-line"><i></i></div><small>CONSTRUCTING YOUR VIEW</small></div>
+
+<header class="site-header">
+ <a class="brand" href="#home"><span class="brand-icon">S<span>•</span></span><span>SITEPULSE<small>INTELLIGENCE IN MOTION</small></span></a>
+ <nav class="desktop-nav"><a href="#platform">Platform</a><a href="#how">How it works</a><a href="#insights">Insights</a></nav>
+ <div class="header-right"><span class="live"><i></i> SYSTEM ONLINE</span><a class="header-cta" href="#inspection">ENTER PLATFORM <span>↗</span></a><button class="menu-toggle" id="menuToggle" aria-label="Open menu"><i></i><i></i></button></div>
+</header>
+<div class="menu-overlay" id="menuOverlay"><button id="menuClose">CLOSE ×</button><a href="#platform">Platform <sup>01</sup></a><a href="#how">How it works <sup>02</sup></a><a href="#insights">Insights <sup>03</sup></a><a href="#inspection">Inspection studio <sup>04</sup></a></div>
+
+<main>
+<section class="hero" id="home">
+ <div class="hero-backdrop"></div><div class="hero-vignette"></div>
+ <div class="hero-topline"><span>CONSTRUCTION INTELLIGENCE / 2026</span><span>12° 58'  N — BENGALURU, IN</span></div>
+ <div class="hero-content">
+  <div class="hero-kicker"><span class="kicker-dot"></span> THE SITE, IN A NEW LIGHT</div>
+  <h1>See what's<br>being <em>built.</em></h1>
+  <p class="hero-description">A clearer view of construction progress. From the first site photo to the final sign-off, turn visual evidence into decisions that move projects forward.</p>
+  <div class="hero-buttons"><a class="round-link" href="#platform">EXPLORE SITEPULSE <span>↘</span></a><span class="hero-note">VISUAL INTELLIGENCE<br>FOR THE BUILT WORLD</span></div>
+ </div>
+ <div class="hero-art" id="heroArt">
+  <div class="art-halo"></div><div class="art-image"></div>
+  <div class="art-scan"></div>
+  <div class="wire-building" aria-hidden="true">
+   <div class="tower tower-back"><i></i><i></i><i></i><i></i><i></i></div>
+   <div class="tower tower-front"><i></i><i></i><i></i><i></i><i></i></div>
+   <div class="tower-roof"></div>
+  </div>
+  <div class="coordinate coord-a">ZONE B / LEVEL 04 <b>● TRACKING</b></div>
+  <div class="coordinate coord-b">STRUCTURE <b>68.4%</b></div>
+  <div class="art-crosshair">+</div>
+ </div>
+ <div class="hero-bottom"><span>SCROLL TO EXPLORE <b>↓</b></span><span class="hero-index">01 <i>/</i> 04</span><span>BUILT FOR THE REAL WORLD</span></div>
+</section>
+
+<section class="manifesto section-pad" id="platform">
+ <div class="section-label"><span>01 / THE BIG PICTURE</span><span>LESS GUESSWORK. MORE GROUND TRUTH.</span></div>
+ <div class="manifesto-grid">
+  <h2>Construction<br>moves fast.<br><span>Stay ahead.</span></h2>
+  <div class="manifesto-copy"><div class="asterisk">✳</div><p>Site visits tell one part of the story. Photos tell another. Schedules and contractor updates add more. SitePulse brings these signals into one shared view, helping teams see where work stands and where attention is needed.</p><a class="under-link" href="#how">DISCOVER THE APPROACH <span>↗</span></a></div>
+ </div>
+ <div class="manifesto-image"><img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=85" alt="Modern high-rise architecture"><div class="image-caption"><span>THE BUILT WORLD, UNDERSTOOD</span><span>01 — ARCHITECTURE / PROGRESS / EVIDENCE</span></div><div class="image-stamp">SITE<br>PULSE<br><b>AI</b></div></div>
+</section>
+
+<section class="platform-section section-pad" id="how">
+ <div class="section-label"><span>02 / FROM IMAGE TO INSIGHT</span><span>THE SITEPULSE METHOD</span></div>
+ <div class="platform-heading"><h2>One site.<br><em>Many signals.</em></h2><p>Visual progress monitoring designed for the complexity of real construction environments.</p></div>
+ <div class="feature-grid">
+  <article class="feature-card feature-large"><div class="feature-visual photo-visual"><div class="scan-frame"><span></span><span></span><span></span><span></span><i></i></div><div class="visual-chip">01 / CAPTURE</div></div><div class="feature-meta"><div><small>FIELD EVIDENCE</small><h3>Every angle<br>has a story.</h3></div><p>Bring site photographs into a consistent project record, tagged by zone, floor and work package.</p><b>↗</b></div></article>
+  <article class="feature-card"><div class="feature-visual model-visual"><div class="model-orbit orbit-one"></div><div class="model-orbit orbit-two"></div><div class="model-core">◈</div><div class="model-data">VISION MODEL<br><b>ANALYSING...</b></div><div class="visual-chip">02 / ANALYSE</div></div><div class="feature-meta"><div><small>COMPUTER VISION</small><h3>Find the<br>progress signal.</h3></div><p>AI can identify visible work elements and surface changes for engineer review.</p><b>↗</b></div></article>
+  <article class="feature-card"><div class="feature-visual dashboard-visual"><div class="mini-window"><div class="mini-window-top"><i></i><i></i><i></i><span>PROJECT / 024</span></div><div class="mini-score">68<span>%</span></div><div class="mini-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="mini-line"></div></div><div class="visual-chip">03 / DECIDE</div></div><div class="feature-meta"><div><small>PROJECT INTELLIGENCE</small><h3>Make the next<br>move count.</h3></div><p>Compare reported and observed progress, flag variance and keep a traceable review history.</p><b>↗</b></div></article>
+ </div>
+</section>
+
+<section class="statement">
+ <div class="statement-bg"></div><div class="statement-content"><span class="section-label">THE BUILT WORLD DOESN'T STAND STILL</span><h2>Make every<br>site visit <em>count.</em></h2><p>Better visibility is not about replacing people on site. It's about giving them better evidence to act on.</p><a href="#inspection" class="round-link">TRY THE INSPECTION STUDIO <span>↗</span></a></div>
+ <div class="statement-side">OBSERVE<br>COMPARE<br>VERIFY<br>MOVE FORWARD</div>
+</section>
+
+<section class="insights section-pad" id="insights">
+ <div class="section-label"><span>03 / PROJECT PULSE</span><span>LIVE DEMO ENVIRONMENT</span></div>
+ <div class="insights-head"><h2>From the<br><em>ground up.</em></h2><p>A live look at how a project can be monitored when field evidence, reported progress and human verification work together.</p></div>
+ <div class="live-dashboard">
+  <div class="dash-top"><div><small>ACTIVE PROJECT / BLR-024</small><h3>Aurelia Heights <span>↗</span></h3></div><div class="dash-live"><i></i> DEMO ENVIRONMENT</div></div>
+  <div class="dash-metrics">
+   <div class="dash-metric"><small>OVERALL COMPLETION</small><strong>68<sup>%</sup></strong><span class="up">↑ 6.4% this month</span></div>
+   <div class="dash-metric"><small>SCHEDULE VARIANCE</small><strong>−4<sup> days</sup></strong><span class="attention">Behind baseline</span></div>
+   <div class="dash-metric"><small>FIELD INSPECTIONS</small><strong id="inspectionCount">128</strong><span>Evidence records</span></div>
+   <div class="dash-metric"><small>ITEMS TO VERIFY</small><strong id="verifyCount">07</strong><span class="attention">Awaiting review</span></div>
+  </div>
+  <div class="dash-bottom"><div class="progress-chart"><div class="chart-head"><b>PROGRESS / ACTUAL VS PLAN</b><span>LAST 6 MONTHS</span></div><canvas id="progressChart"></canvas><div class="chart-legend"><span><i></i> Actual</span><span><i></i> Planned</span></div></div><div class="work-status"><b>WORK PACKAGE STATUS</b><div class="work-row"><span>Structure</span><strong>82%</strong><i><b style="width:82%"></b></i></div><div class="work-row"><span>MEP services</span><strong>56%</strong><i><b style="width:56%"></b></i></div><div class="work-row"><span>Finishes</span><strong>34%</strong><i><b style="width:34%"></b></i></div><div class="dash-footnote">Illustrative project metrics for demonstration.</div></div></div>
+ </div>
+</section>
+
+<section class="inspection section-pad" id="inspection">
+ <div class="section-label"><span>04 / INSPECTION STUDIO</span><span>PUT THE WORKFLOW TO THE TEST</span></div>
+ <div class="inspection-layout"><div class="inspection-copy"><h2>Bring the<br>site <em>closer.</em></h2><p>Upload a construction photo, add the reported progress and save an inspection record. Your team can review and verify it from the activity log.</p><div class="inspection-note"><span>✳</span><div><b>Human verification matters.</b><small>Demo estimates are placeholders. Real progress measurement requires a site-calibrated computer-vision model and engineer approval.</small></div></div></div>
+ <div class="inspection-box"><div class="inspection-box-top"><span>NEW FIELD ENTRY</span><span>● READY</span></div><div class="upload-preview" id="dropZone"><input type="file" id="photoInput" accept="image/png,image/jpeg,image/webp"><div class="upload-plus">＋</div><b>Drop your site photo</b><small>or click to browse · JPG / PNG / WEBP · max 12 MB</small><img id="previewImage" alt="Selected site photo"></div>
+ <form id="inspectionForm"><div class="form-two"><label>PROJECT<input name="project" value="Aurelia Heights" required></label><label>WORK PACKAGE<select name="package"><option>Structural works</option><option>MEP services</option><option>Blockwork & finishes</option><option>External works</option></select></label></div><label>REPORTED PROGRESS <b id="rangeValue">65%</b><input type="range" name="reported" id="reportedRange" min="0" max="100" value="65"></label><label>FIELD NOTES<textarea name="notes" rows="2" placeholder="Zone, floor, observations or blockers..."></textarea></label><div class="form-error" id="formError"></div><button class="submit-button" type="submit">SAVE INSPECTION <span>↗</span></button></form>
+ <div class="inspection-result" id="inspectionResult"></div></div></div>
+ <div class="activity"><div class="activity-head"><div><small>FIELD ACTIVITY</small><h3>Recent inspections</h3></div><button id="exportBtn">EXPORT CSV ↓</button></div><div class="table-wrap"><table><thead><tr><th>WORK PACKAGE</th><th>DATE</th><th>REPORTED</th><th>DEMO SIGNAL</th><th>STATUS</th><th></th></tr></thead><tbody id="inspectionRows"><tr><td><b>Level 04 · Slab casting</b><small>Zone B / Structure</small></td><td>Today, 14:32</td><td>72%</td><td class="cyan">68.5%</td><td><i class="status review">Needs review</i></td><td>···</td></tr><tr><td><b>MEP conduit installation</b><small>Level 02 / Services</small></td><td>Today, 11:18</td><td>58%</td><td class="cyan">56.2%</td><td><i class="status verified">Verified</i></td><td>···</td></tr></tbody></table></div></div>
+</section>
+
+<section class="closing">
+ <div class="closing-orb"></div><div class="section-label"><span>SITEPULSE AI / 2026</span><span>THE FUTURE IS UNDER CONSTRUCTION</span></div><h2>Build with<br><em>better insight.</em></h2><a href="#home" class="round-link">BACK TO THE TOP <span>↑</span></a><div class="closing-bottom"><span>© 2026 SITEPULSE AI</span><span>BUILT FOR THE PEOPLE WHO BUILD OUR WORLD.</span><span>DATA-LED. HUMAN-VERIFIED.</span></div>
+</section>
+</main>
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body></html>
